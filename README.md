@@ -1,1 +1,1 @@
-Here is my attempt at learning how to code using The Odin Project. This is a recipe project.
+Here is my attempt at learning how to code using The Odin Project. I hope you enjoy.
