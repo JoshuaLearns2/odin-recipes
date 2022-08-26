@@ -16,6 +16,14 @@ a {
     margin: -5px;
 }
 
+.recipes-list {
+    list-style: none;
+    display: inline-block;
+    line-height: 30px;
+    padding-top: 5px;
+    padding-right: 40px;
+}
+
 body {
     padding-top: 50px;
 }
