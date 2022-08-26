@@ -1,11 +1,11 @@
-* {
+body {
     text-align: center;
     background-color: black;
     color: white;
 }
 
 img {
-    width: 300px;
+    width: 400px;
     height: auto;
     margin-bottom: 20px;
 }
@@ -18,4 +18,45 @@ a {
 
 body {
     padding-top: 50px;
+}
+
+.flex {
+    display: flex;
+    /* border-style: solid; */
+    /* border-color: aqua; */
+    padding: 0;
+}
+
+.ingredients {
+    width: 250px;
+    background-color: rgb(60, 60, 60);
+    border-radius: 25px;
+    padding-right: 20px;
+}
+
+.ingredients > ul {
+    text-align: left;
+    font-size: small;
+    line-height: 20px;
+}
+
+.instructions {
+    font-size: larger;
+    margin-top: -20px;
+}
+
+.instructions > ol > li {
+    text-align: left;
+    line-height: 30px;
+}
+
+p {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: solid white 2px;
+}
+
+* {
+    /* border-style: solid; */
+    /* border-color: aqua; */
 }
